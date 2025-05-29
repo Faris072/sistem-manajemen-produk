@@ -1,7 +1,7 @@
 <div class="p-4 shadow rounded-lg">
     <h3 class="text-xl font-semibold mb-4">Other Products in Same Category</h3>
 
-    <input type="search" wire:model.live="search" placeholder="Search products..." class="form-input w-full mb-4 rounded-md text-black shadow-sm">
+    <input type="search" wire:model.live="search" placeholder="Search products..." class="form-input w-full mb-4 rounded-md text-black shadow-sm" style="color:black !important;">
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         @forelse ($relatedProducts as $productItem)
